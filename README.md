@@ -1,12 +1,12 @@
-GettingAndCleaningData
+#GettingAndCleaningData
 
-#Description
+##Description
 ======================
 This repository contains an R code which combind and made a tidy data out of the collection of sample data sets received from 
 Human Activity Recognition Using Smartphones experiment. 
 (Source "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones".)
 
-#General Information
+##General Information
 =======================
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
@@ -21,7 +21,7 @@ and body motion components, was separated using a Butterworth low-pass filter in
 The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was 
 obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details.
 
-#How's it work?
+##How's it work?
 =======================
 This repositoy contains R script called run_analysis.R that does the following. 
 1. Merges the training and the test sets to create one data set.
